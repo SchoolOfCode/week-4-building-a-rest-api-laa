@@ -4,6 +4,7 @@ import { readQuotes, writeQuotes } from "./helpers.js";
 
 export async function getQuotes() {
   const quotes = await readQuotes();
+  console.log(quotes);
   return quotes;
 }
 
